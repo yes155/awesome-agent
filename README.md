@@ -7,27 +7,18 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 	* [Examples and Exercises](#examples-and-exercises)
 	* [Awesome Lists and Collections](#awesome-lists-and-collections)
 * Language and Tooling
-	* [Build Systems](#build-systems)
 	* [Linters and Formatters](#linters-and-formatters)
-	* [Debugging and Profiling](#debugging-and-profiling)
 	* [Editor and IDE Support](#editor-and-ide-support)
-	* [Version Control](#version-control)
 * Web
-	* [Web Frameworks](#web-frameworks)
-	* [HTTP and Networking Clients](#http-and-networking-clients)
 	* [API and GraphQL](#api-and-graphql)
 	* [Frontend and UI Components](#frontend-and-ui-components)
-	* [Web Servers and Proxies](#web-servers-and-proxies)
 	* [Scraping and Crawling](#scraping-and-crawling)
 * Data and Storage
 	* [Databases](#databases)
-	* [Database Clients and ORMs](#database-clients-and-orms)
-	* [Caching and Queues](#caching-and-queues)
 	* [Search and Indexing](#search-and-indexing)
 * Machine Learning and AI
 	* [LLM and Inference](#llm-and-inference)
 	* [Machine Learning Frameworks](#machine-learning-frameworks)
-	* [Natural Language Processing](#natural-language-processing)
 	* [Data Science and Analytics](#data-science-and-analytics)
 * AI Agents
 	* [Agent Frameworks and Runtimes](#agent-frameworks-and-runtimes)
@@ -36,7 +27,6 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 	* [Memory and Context](#memory-and-context)
 	* [Evaluation and Benchmarks](#evaluation-and-benchmarks)
 * Networking and Distributed
-	* [Networking](#networking)
 	* [Distributed Systems](#distributed-systems)
 	* [Cloud and Infrastructure](#cloud-and-infrastructure)
 	* [Monitoring and Observability](#monitoring-and-observability)
@@ -46,30 +36,19 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 * Graphics and Media
 	* [Graphics and Rendering](#graphics-and-rendering)
 	* [Game Development](#game-development)
-	* [Audio](#audio)
 	* [Image and Video](#image-and-video)
 * Security
-	* [Cryptography](#cryptography)
 	* [Security Tools](#security-tools)
-	* [Authentication and Authorization](#authentication-and-authorization)
 	* [Reverse Engineering](#reverse-engineering)
-* Concurrency and Performance
-	* [Concurrency and Parallelism](#concurrency-and-parallelism)
-* Testing and Quality
-	* [Testing](#testing)
 * Utilities
 	* [Command Line Tools](#command-line-tools)
-	* [Text Processing](#text-processing)
-	* [Files and Operating System](#files-and-operating-system)
 	* [Automation and Scripting](#automation-and-scripting)
 * Systems and Hardware
 	* [Operating Systems and Kernels](#operating-systems-and-kernels)
-	* [Embedded and Firmware](#embedded-and-firmware)
 * Business and Domain
 	* [Finance and Trading](#finance-and-trading)
 	* [Business and Productivity](#business-and-productivity)
 * Science and Math
-	* [Mathematics](#mathematics)
 	* [Scientific Computing](#scientific-computing)
 * [Other](#other)
 
@@ -198,10 +177,6 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 
 ## Language and Tooling
 
-### Build Systems
-
-* [nrwl/nx](https://github.com/nrwl/nx) - The Monorepo Platform that amplifies both developers and AI agents. Nx optimizes your builds, scales your CI, and fixes failed PRs automatically. Ship in half the time.
-
 ### Linters and Formatters
 
 * [kucherenko/jscpd](https://github.com/kucherenko/jscpd) - Copy/paste detector for source code. 220+ languages, Rust engine, SARIF/HTML/badge reporters, GitHub Action, MCP server for AI agents.
@@ -211,10 +186,6 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 * [SonarSource/sonarqube-mcp-server](https://github.com/SonarSource/sonarqube-mcp-server) - Official SonarQube MCP Server for code quality and security in AI agents
 * [defendend/Claude-ast-index-search](https://github.com/defendend/Claude-ast-index-search) - Cli allows AST search, ~40-50% economy tokens. Claude/Codex/Cursor searches (suitable for any AI agent that can use Bash)
 
-### Debugging and Profiling
-
-* [koloai/kolo](https://github.com/koloai/kolo) - Kolo is a text-based Python debugger for AI agents. Capture every executed function call, return value, local variable, HTTP request, and more in greppable trace files.
-
 ### Editor and IDE Support
 
 * [RooCodeInc/Roo-Code](https://github.com/RooCodeInc/Roo-Code) - Roo Code gives you a whole dev team of AI agents in your code editor. *(archived)*
@@ -223,25 +194,7 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 * [athasdev/athas](https://github.com/athasdev/athas) - A lightweight, cross-platform code editor, built with Tauri (Rust and React) with Git support, AI agents, vim keybindings.
 * [justrach/codedb](https://github.com/justrach/codedb) - Zig code intelligence server and MCP toolset for AI agents. Fast tree, outline, symbol, search, read, edit, deps, snapshot, and remote GitHub repo queries.
 
-### Version Control
-
-* [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) - Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows
-* [entireio/cli](https://github.com/entireio/cli) - 📜 Entire CLI hooks into your Git workflow to capture AI agent sessions as you work. Sessions are indexed alongside commits, creating a searchable record of how code was written in your repo.
-* [gitmono-dev/mega](https://github.com/gitmono-dev/mega) - Mega is an open-source implementation of Google Piper — a Git-compatible monorepo engine built for the AI Agent era.
-* [morapelker/hive](https://github.com/morapelker/hive) - Project/Worktree manager, deeply integrated with AI agents to increase productivity and multitask efficiently
-
 ## Web
-
-### Web Frameworks
-
-* [polterguy/magic](https://github.com/polterguy/magic) - Instant SECURE Full Stack Apps and AI Agents
-* [ThibautBaissac/rails_ai_agents](https://github.com/ThibautBaissac/rails_ai_agents) - Specialized AI skills, agents, rules and hooks for modern Rails AI driven-development + Spec-Driven-Development kit + MCP
-* [use-novamira/novamira](https://github.com/use-novamira/novamira) - MCP server that gives AI agents full access to WordPress through PHP execution and filesystem operations
-* [waynesutton/markdown-site](https://github.com/waynesutton/markdown-site) - An open-source publishing framework built for AI agents and developers to ship websites, docs, or blogs. Write markdown, sync from the terminal. Your content is instantly available to browsers, LLMs, and AI agents. Built on Convex and Netlify.
-
-### HTTP and Networking Clients
-
-* [cv-cat/XianYuApis](https://github.com/cv-cat/XianYuApis) - 闲鱼算法逆向，闲鱼api，websockets自动运营，咸鱼AI Agent基座
 
 ### API and GraphQL
 
@@ -268,11 +221,6 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 * [dappros/ethora](https://github.com/dappros/ethora) - SDK monorepo for Ethora chat / messaging platform. (1) Pick an SDK for your frontend stack. (2) Integrate manually or using ethora-setup. (3) Optionally configure app settings, deploy AI agents etc. Server: ethora.com cloud [free]. Dedicated server + SLA option for enterprise customers.
 * [TheOrcDev/shadscan](https://github.com/TheOrcDev/shadscan) - Deterministic UI audits for shadcn apps, built for your terminal, your CI, and your AI agent.
 * [pulkitxm/claude-directory](https://github.com/pulkitxm/claude-directory) - Open-source AI interfaces built with Claude (Fable 5) including hero sections, GLSL shaders, design systems, animations, 3D components and and landing pages, in React, Tailwind, and Three.js. Plug them into your AI agent and ship faster.
-
-### Web Servers and Proxies
-
-* [aklivity/zilla](https://github.com/aklivity/zilla) - 🦎 A lightweight, multi-protocol gateway for event-driven applications and AI agents. Expose and govern Kafka, MQTT, APIs, and MCP through one high-performance engine with shared routing, security, schema, and observability.
-* [joaoh82/rustunnel](https://github.com/joaoh82/rustunnel) - Self-hosted, secure tunnel server in Rust. Expose local HTTP/HTTPS/TCP/UDP services to the public internet via TLS-encrypted WebSocket. Open-source, pay-as-you-go managed option, MCP server for AI agents.
 
 ### Scraping and Crawling
 
@@ -335,16 +283,6 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 * [planetscale/database-skills](https://github.com/planetscale/database-skills) - Skills for AI agents working with databases
 * [sqliteai/sqlite-sync](https://github.com/sqliteai/sqlite-sync) - CRDT-based offline-first sync for SQLite. Syncs automatically with SQLite Cloud, PostgreSQL, and Supabase. No conflicts, no data loss, no backend to build. For offline-first apps and AI agents.
 
-### Database Clients and ORMs
-
-* [crystaldba/postgres-mcp](https://github.com/crystaldba/postgres-mcp) - Postgres MCP Pro provides configurable read/write access and performance analysis for you and your AI agents.
-* [pgrundev/pgbot](https://github.com/pgrundev/pgbot) - Postgres intelligence for ai agents & apps
-* [centralmind/gateway](https://github.com/centralmind/gateway) - Universal MCP-Server for your Databases optimized for LLMs and AI-Agents.
-
-### Caching and Queues
-
-* [hatchet-dev/hatchet](https://github.com/hatchet-dev/hatchet) - 🪓 An orchestration engine for background tasks, AI agents, and durable workflows
-
 ### Search and Indexing
 
 * [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff) - The fastest and the most accurate file search SDK for AI agents, Neovim, Rust, C, Python, Bun and NodeJS
@@ -376,11 +314,6 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 * [Xiangyue-Zhang/auto-deep-researcher-24x7](https://github.com/Xiangyue-Zhang/auto-deep-researcher-24x7) - 🔥 An autonomous AI agent that runs your deep learning experiments 24/7 while you sleep. Zero-cost monitoring, Leader-Worker architecture, constant-size memory.
 * [microsoft/Trace](https://github.com/microsoft/Trace) - End-to-end Generative Optimization for AI Agents
 * [maurock/snake-ga](https://github.com/maurock/snake-ga) - AI Agent that learns how to play Snake with Deep Q-Learning
-
-### Natural Language Processing
-
-* [Vexa-ai/vexa](https://github.com/Vexa-ai/vexa) - Open-source meeting transcription API for Google Meet, Microsoft Teams & Zoom. Auto-join bots, real-time WebSocket transcripts, MCP server for AI agents. Self-host or use hosted SaaS.
-* [uber-archive/plato-research-dialogue-system](https://github.com/uber-archive/plato-research-dialogue-system) - This is the Plato Research Dialogue System, a flexible platform for developing conversational AI agents. *(archived)*
 
 ### Data Science and Analytics
 
@@ -428,8 +361,8 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 * [microsoft/agent-framework](https://github.com/microsoft/agent-framework) - A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.
 * [TEN-framework/ten-framework](https://github.com/TEN-framework/ten-framework) - Open-source framework for conversational voice AI agents
 * [VoltAgent/voltagent](https://github.com/VoltAgent/voltagent) - AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework
-* [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent) - Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.
 * [GetBindu/Bindu](https://github.com/GetBindu/Bindu) - Bindu: The identity, communication, and payments layer for AI agents.
+* [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent) - Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.
 * [openchamber/openchamber](https://github.com/openchamber/openchamber) - Agentic Development Environment based on OpenCode AI agent
 * [EvoMap/evolver](https://github.com/EvoMap/evolver) - The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. | evomap.ai
 * [google/adk-go](https://github.com/google/adk-go) - An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
@@ -521,8 +454,8 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 * [amd/gaia](https://github.com/amd/gaia) - Build AI agents for your PC
 * [golemcloud/golem](https://github.com/golemcloud/golem) - Golem Cloud is the agent-native platform for building AI agents and distributed applications that never lose state, never duplicate work, and never require you to build infrastructure.
 * [jgravelle/AutoGroq](https://github.com/jgravelle/AutoGroq) - AutoGroq is a groundbreaking tool that revolutionizes the way users interact with Autogen™ and other AI assistants. By dynamically generating tailored teams of AI agents based on your project requirements, AutoGroq eliminates the need for manual configuration and allows you to tackle any question, problem, or project with ease and efficiency.
-* [google/adk-docs](https://github.com/google/adk-docs) - An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
 * [openonion/connectonion](https://github.com/openonion/connectonion) - The Best AI Agent Framework for Agent Collaboration.
+* [google/adk-docs](https://github.com/google/adk-docs) - An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
 * [limecloud/lime](https://github.com/limecloud/lime) - Full-stack AI agent for coding, files, terminals, tools, research, content, multimodal work, and multi-agent workflows.
 * [agi-inc/agent-protocol](https://github.com/agi-inc/agent-protocol) - Common interface for interacting with AI agents. The protocol is tech stack agnostic - you can use it with any framework for building agents.
 * [dust-tt/dust](https://github.com/dust-tt/dust) - Custom AI agent platform to speed up your work.
@@ -556,8 +489,8 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 * [agents-flex/agents-flex](https://github.com/agents-flex/agents-flex) - Agents-flex is A lightweight Java AI agent development framework (positioned as a counterpart to Spring AI). It supports features such as RAG, MCP, Skills, Text2SQL , LLM Wiki, Sub-agents, Web Search, TTS (synchronous and streaming), and STT.
 * [PatterAI/Patter](https://github.com/PatterAI/Patter) - Open-source voice-AI SDK. The Vapi/Retell alternative for builders who want to own the stack. Give your AI agent a phone number in 4 lines — Python and TypeScript, MIT licensed, Twilio, Telnyx, and Plivo.
 * [wk42worldworld/cybercode](https://github.com/wk42worldworld/cybercode) - 整合 Claude Code 编程能力与 Hermes Agent 自进化能力的智能体 / An AI agent combining Claude Code coding capabilities with Hermes Agent self-evolution.
-* [walter-grace/mac-code](https://github.com/walter-grace/mac-code) - mac code — Claude Code, but it runs on your Mac for free. 35B AI agent at 30 tok/s via Apple Silicon flash-paging. $0/month.
 * [phronesis-io/eigenflux](https://github.com/phronesis-io/eigenflux) - EigenFlux is an open-source framework that enables AI agents to communicate and broadcast within a shared network.
+* [walter-grace/mac-code](https://github.com/walter-grace/mac-code) - mac code — Claude Code, but it runs on your Mac for free. 35B AI agent at 30 tok/s via Apple Silicon flash-paging. $0/month.
 * [wangziqi06/724-office](https://github.com/wangziqi06/724-office) - 7/24 Office — Self-evolving AI Agent system. 36 tools, 10,000 lines pure Python, modular architecture, MCP plugins, three-layer memory, nudge system, AI mirror, 24/7 production.
 * [fuyuxiang/echo-agent](https://github.com/fuyuxiang/echo-agent) - Echo Agent 是一个可自托管、长期运行、持续学习的 AI Agent，面向个人与团队的私有自动化场景。它可以部署在自有服务器上，统一连接模型、工具、记忆、权限与消息入口。内置四层认知记忆、遗忘曲线与矛盾检测机制，能够在跨会话任务中持续沉淀上下文，并保持长期记忆的质量。针对命令执行、文件操作等高风险行为，它提供基于 LLM 的审批与解释机制，为关键操作建立可审计、可追溯的安全边界。原生支持 MCP、A2A、多模型路由、任务调度、工具调用和多通道接入，覆盖 CLI、Gateway API、微信、Telegram 等入口。它让 Agent 带着长期记忆和可进化技能，持续、安全地为你工作。
 * [i-am-bee/acp](https://github.com/i-am-bee/acp) - Open protocol for communication between AI agents, applications, and humans. *(archived)*
@@ -618,8 +551,8 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 * [Ingenimax/agent-sdk-go](https://github.com/Ingenimax/agent-sdk-go) - A powerful Go framework for building production-ready AI agents!
 * [framerslab/agentos](https://github.com/framerslab/agentos) - TypeScript AI agent framework: cognitive memory, runtime tool forging, multi-agent orchestration, 11 LLM providers.
 * [openteams-lab/openteams](https://github.com/openteams-lab/openteams) - Plan, Build, and Ship — with a team of AI agents instead of one
-* [evolution-foundation/evo-ai](https://github.com/evolution-foundation/evo-ai) - Evo AI is an open-source platform for creating and managing AI agents, enabling integration with different AI models and services.
 * [jaredrhod/fullstack-agent](https://github.com/jaredrhod/fullstack-agent) - Give your AI a full stack: memory, voice, face, and hands. This is the "I want an AI agent" shortcut. It sets up the entire jaredrhod stack for you with an installation wizard. Select which pieces you want or do it all!
+* [evolution-foundation/evo-ai](https://github.com/evolution-foundation/evo-ai) - Evo AI is an open-source platform for creating and managing AI agents, enabling integration with different AI models and services.
 * [MaxGfeller/open-harness](https://github.com/MaxGfeller/open-harness) - A code-first, composable SDK to build powerful AI agents
 * [timothy-odofin/agenthub-be](https://github.com/timothy-odofin/agenthub-be) - Open-source RAG platform with multi-LLM support. Build AI agents that connect to your data, tools, and workflows - no code required.
 * [8treenet/goraven](https://github.com/8treenet/goraven) - Open-source AI Agent platform for teams. Your agents don't just chat — they read files, run code, call APIs, and deliver results.
@@ -637,9 +570,9 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 * [QuantaAlpha/RepoMaster](https://github.com/QuantaAlpha/RepoMaster) - RepoMaster: The open-source AI agent that masters GitHub. It turns any code repository into a powerful tool, achieving a new level of autonomous task-solving. An open alternative to Claude-Code.
 * [open-gitagent/clawless](https://github.com/open-gitagent/clawless) - ClawLess — A serverless browser-based runtime for Claw AI Agents powered by WebContainers
 * [agnt-gg/agnt](https://github.com/agnt-gg/agnt) - The local-first operating system for building, running, and improving AI agents, workflows, and autonomous goals.
+* [sandbox-quantum/switch](https://github.com/sandbox-quantum/switch) - Connect any AI agent to your team in Slack, Teams & Discord. Open-source and self-hostable.
 * [jaylfc/taOS](https://github.com/jaylfc/taOS) - Self-hosted AI agent OS. Your memory, chat, agents, and files stay on hardware you own, offline by default, cloud by choice. Offline AI memory (taOSmd), self-hosted multi-framework group chat, a full web desktop + app store, and auto-clustering across the consumer hardware you already have (Orange/Raspberry Pi, Mac mini, gaming PC).
 * [sentient-engineering/agent-q](https://github.com/sentient-engineering/agent-q) - agent q - oss advanced reasoning and learning for autonomous ai agents
-* [sandbox-quantum/switch](https://github.com/sandbox-quantum/switch) - Connect any AI agent to your team in Slack, Teams & Discord. Open-source and self-hostable.
 * [Abilityai/trinity](https://github.com/Abilityai/trinity) - Self-hosted AI Agents Platform supporting Claude Code, Codex, Gemini agents. Apache 2.0.
 * [PV-Bhat/vibe-check-mcp-server](https://github.com/PV-Bhat/vibe-check-mcp-server) - Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-eager AI Agents goodbye! Effective for: Coding, Ambiguous Tasks, High-Risk tasks
 * [Kohaku-Lab/KohakuTerrarium](https://github.com/Kohaku-Lab/KohakuTerrarium) - KohakuTerrarium is a general-purpose AI agent framework and batteries-included app for building, running, and composing self-contained agents and multi-agent teams, with built-in tools, sub-agents, persistent sessions, TUI, and web UI.
@@ -684,8 +617,8 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 * [yb2460/harness-anything](https://github.com/yb2460/harness-anything) - Harness Anything - AI agent control hub: WPS, MS Office, Zotero, Photoshop, 47 CLI commands, 27 academic skills, SVG-to-PPTX
 * [Binaryify/open-kimi-ppt-skill](https://github.com/Binaryify/open-kimi-ppt-skill) - 非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX with a local browser editor *(archived)*
 * [Shpigford/chops](https://github.com/Shpigford/chops) - Your AI agent skills, finally organized. A macOS app to browse, edit, and manage skills across Claude Code, Cursor, Codex, Windsurf, and Amp.
-* [alchaincyf/huashu-skills](https://github.com/alchaincyf/huashu-skills) - 花叔全部开源 Agent Skills 总目录：16 旗舰 + 14 人物视角 + 22 内置共 52 个 skill，分层分类 + AI Agent 安装协议 + 机器可读 skills.json + 更新检查机制
 * [Pluviobyte/rnskill](https://github.com/Pluviobyte/rnskill) - 雪踏乌云的 AI Agent Skills 集合
+* [alchaincyf/huashu-skills](https://github.com/alchaincyf/huashu-skills) - 花叔全部开源 Agent Skills 总目录：16 旗舰 + 14 人物视角 + 22 内置共 52 个 skill，分层分类 + AI Agent 安装协议 + 机器可读 skills.json + 更新检查机制
 * [CreminiAI/skillpack](https://github.com/CreminiAI/skillpack) - Pack and deploy local AI agents for your team in minutes
 * [MoizIbnYousaf/ai-agent-skills](https://github.com/MoizIbnYousaf/ai-agent-skills) - Universal skill installer and package manager for AI coding agents. One command, 12+ runtimes. npx ai-agent-skills
 * [alibaba-flyai/flyai-skill](https://github.com/alibaba-flyai/flyai-skill) - fly ai agent skill
@@ -783,8 +716,8 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 * [rtk-ai/icm](https://github.com/rtk-ai/icm) - Permanent memory for AI agents. Single binary, zero dependencies, MCP native.
 * [mnemon-dev/mnemon](https://github.com/mnemon-dev/mnemon) - LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowledge, single binary. Works with DeepSeek Harness, Claude Code, OpenClaw, and any agent runtime.
 * [liliu-z/stashbase](https://github.com/liliu-z/stashbase) - Turn local files into searchable context for AI agents.
-* [kentcdodds/kody](https://github.com/kentcdodds/kody) - 🐨 Your assistant's home — the memory, keys, code, and automations your AI agent keeps, portable across every MCP host. Built on Cloudflare Workers.
 * [neo4j-labs/agent-memory](https://github.com/neo4j-labs/agent-memory) - A graph-native memory system for AI agents and context graphs. Store conversations, build knowledge graphs, and let your agents learn from their own reasoning — all backed by Neo4j.
+* [kentcdodds/kody](https://github.com/kentcdodds/kody) - 🐨 Your assistant's home — the memory, keys, code, and automations your AI agent keeps, portable across every MCP host. Built on Cloudflare Workers.
 * [HKUDS/CatchMe](https://github.com/HKUDS/CatchMe) - "CatchMe: Make Your AI Agents Truly Personal"
 * [RyjoxTechnologies/Octopoda-OS](https://github.com/RyjoxTechnologies/Octopoda-OS) - The open-source memory and observability layer for AI agents — persistent memory, loop detection, hash-chained audit trails, and a live dashboard, automatic on pip install.
 * [caura-ai/caura](https://github.com/caura-ai/caura) - Caura (formerly MemClaw) — governed shared memory for AI agent fleets. Multi-agent, multi-tenant, MCP-native. Trust tiers, keystone policies, audit trails, knowledge graph, self-improving retrieval. Apache 2.0.
@@ -831,10 +764,6 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 * [rajudandigam/agent-inspect](https://github.com/rajudandigam/agent-inspect) - Local evidence debugger and trajectory-test toolkit for TypeScript AI agents: inspect causal runs, catch wrong tool paths in CI, and share safe offline evidence.
 
 ## Networking and Distributed
-
-### Networking
-
-* [automateyournetwork/netclaw](https://github.com/automateyournetwork/netclaw) - An AI agent that claws through your network
 
 ### Distributed Systems
 
@@ -988,11 +917,6 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 * [kvick-games/UnrealMCP](https://github.com/kvick-games/UnrealMCP) - MCP to allow AI agents to control Unreal
 * [erreurt/MahjongAI](https://github.com/erreurt/MahjongAI) - Japanese Riichi Mahjong AI agent. (Feel free to extend this agent or develop your own agent)
 
-### Audio
-
-* [PennyroyalTea/gibberlink](https://github.com/PennyroyalTea/gibberlink) - Two conversational AI agents switching from English to sound-level protocol after confirming they are both AI agents
-* [JinhuaLiang/WavCraft](https://github.com/JinhuaLiang/WavCraft) - Official repo for WavCraft, an AI agent for audio creation and editing
-
 ### Image and Video
 
 * [waooAI/waoowaoo](https://github.com/waooAI/waoowaoo) - 首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. From shorts to live-action with Hollywood-standard workflows.
@@ -1007,11 +931,6 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 * [poseljacob/agentic-video-editor](https://github.com/poseljacob/agentic-video-editor) - AI-powered video editor that turns raw footage and a creative brief into a polished ad using an ensemble of AI agents (Google Gemini + FFmpeg)
 
 ## Security
-
-### Cryptography
-
-* [Infisical/agent-vault](https://github.com/Infisical/agent-vault) - A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more.
-* [phasehq/console](https://github.com/phasehq/console) - Secrets management for teams and AI agents.
 
 ### Security Tools
 
@@ -1061,13 +980,6 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 * [AISecurityLab/hackagent](https://github.com/AISecurityLab/hackagent) - HackAgent is an open-source security toolkit to detect vulnerabilities of your AI Agents
 * [GoPlusSecurity/agentguard](https://github.com/GoPlusSecurity/agentguard) - Security guard for AI agents — blocks malicious skills, prevents data leaks, protects secrets. 24 detection rules, runtime action evaluation, trust registry.
 
-### Authentication and Authorization
-
-* [MetapriseAI/OrgKernel](https://github.com/MetapriseAI/OrgKernel) - Open-source trust layer for AI agents — cryptographic agent identity (Ed25519), instance-scoped execution tokens, SHA-256 hash-chained audit logging, and enterprise SSO/SCIM federation. The security foundation powering every agent in the Metaprise AURA platform.
-* [thunder-id/thunderid](https://github.com/thunder-id/thunderid) - ThunderID is a high-performance, open-source identity stack designed for developers to secure and manage access for humans, AI agents, and machines through fully composable identity flows.
-* [sv-number/mcp-server](https://github.com/sv-number/mcp-server) - MCP server for AI agents that need a phone number: order a private number in 200+ countries, read the SMS verification code, hand it back. The widest country coverage in the category, and you can check it with one API call.
-* [decionis/agent-safe-pipeline](https://github.com/decionis/agent-safe-pipeline) - Reference architecture for AI agents that propose actions but cannot authorize them — immutable intent capture, an independent Decionis policy verdict (ALLOW/ESCALATE/BLOCK), verified human approval, and a SafeExecutor that consumes a single-use intent-bound grant.
-
 ### Reverse Engineering
 
 * [Mouseww/anything-analyzer](https://github.com/Mouseww/anything-analyzer) - 全能协议分析工具：浏览器抓包 + MITM 代理 + 指纹伪装 + AI 分析 + MCP Server 无缝对接 AI Agent/IDE | All-in-one protocol analysis toolkit — built-in browser capture, MITM proxy, JS hooks, fingerprint spoofing, AI analysis & MCP server for agent integration
@@ -1075,20 +987,6 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 * [lingbol088-spec/reverse-flow-skill](https://github.com/lingbol088-spec/reverse-flow-skill) - 面向 AI Agent / Codex 的本地 CTF 逆向工程流程技能。加载后通过“真心为你”进入逆向模式，默认在本地沙盒、CTF、crackme、wargame 或训练靶场环境中工作，按“分析 → 报告 → 逆向 → 深度逆向 → 漏洞研判 → 用户选择下一步”的流程推进。
 * [416rehman/DeepZero](https://github.com/416rehman/DeepZero) - Find zero-days while you sleep. DeepZero is an automated vulnerability research framework that parses, decompiles, and analyzes thousands of Windows kernel drivers for exploitable IOCTLs natively using AI agents.
 * [SetsunaYukiOvO/x64dbg-mcp](https://github.com/SetsunaYukiOvO/x64dbg-mcp) - MCP server plugin for x64dbg debugger - enables AI agents and external tools to control debugging via JSON-RPC 2.0 over HTTP/SSE
-
-## Concurrency and Performance
-
-### Concurrency and Parallelism
-
-* [rivet-dev/actors](https://github.com/rivet-dev/actors) - Rivet Actors are the primitive for stateful workloads. Built for AI agents, collaborative apps, and durable execution.
-
-## Testing and Quality
-
-### Testing
-
-* [pestphp/pest](https://github.com/pestphp/pest) - The elegant testing framework for PHP developers and AI agents.
-* [qawolf/cli](https://github.com/qawolf/cli) - QA Wolf from anywhere — your terminal, your CI, your AI agent.
-* [takahirom/arbigent](https://github.com/takahirom/arbigent) - AI Agent for testing Android, iOS, and Web apps. Get Started in 5 Minutes. Arbigent's intuitive UI and powerful code interface make it accessible to everyone, while its scenario breakdown feature ensures scalability for even the most complex tasks.
 
 ## Utilities
 
@@ -1105,16 +1003,6 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 * [DingTalk-Real-AI/dingtalk-workspace-cli](https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli) - DingTalk Workspace is an officially open-sourced cross-platform CLI tool from DingTalk. It unifies DingTalk’s full suite of product capabilities into a single package, is designed for both human users and AI agent scenarios.
 * [Mininglamp-OSS/octo-cli](https://github.com/Mininglamp-OSS/octo-cli) - Metadata-driven CLI for AI Agent Bots — 48 operations across 7 domains, structured JSON envelope I/O, zero interactive prompts.
 * [alexknowshtml/api2cli](https://github.com/alexknowshtml/api2cli) - Audience-aware CLI patterns for Node.js + Commander.js. Build CLIs for humans, AI agents, or both.
-
-### Text Processing
-
-* [isjiamu/gzh-design-skill](https://github.com/isjiamu/gzh-design-skill) - 把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste-ready WeChat article HTML.
-* [SylphxAI/pdf-reader-mcp](https://github.com/SylphxAI/pdf-reader-mcp) - Give your AI agent eyes for PDFs — structured text, tables, OCR, visual evidence, and page-level citations via MCP. Native Rust, local-first.
-* [AeternaLabsHQ/pullmd](https://github.com/AeternaLabsHQ/pullmd) - Self-hosted URL- and file-to-Markdown service for humans and AI agents - web pages, documents, images, audio, YouTube. PWA + REST + MCP + Claude Code skill, Reddit-aware, refreshable share links.
-
-### Files and Operating System
-
-* [baryhuang/mcp-remote-macos-use](https://github.com/baryhuang/mcp-remote-macos-use) - The only general AI agent that does NOT requires extra API key, giving you full control on your local and remote MacOs from Claude Desktop App
 
 ### Automation and Scripting
 
@@ -1153,12 +1041,6 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 * [mensfeld/code-on-incus](https://github.com/mensfeld/code-on-incus) - Give each AI agent its own isolated machine with root, Docker, and systemd. Active defense detects and stops threats automatically.
 * [SWE-agent/SWE-ReX](https://github.com/SWE-agent/SWE-ReX) - Sandboxed code execution for AI agents, locally or on the cloud. Massively parallel, easy to extend. Powering SWE-agent and more.
 * [papercomputeco/stereOS](https://github.com/papercomputeco/stereOS) - A Linux based operating system hardened and purpose built for AI agents
-
-### Embedded and Firmware
-
-* [espressif/esp-claw](https://github.com/espressif/esp-claw) - ESP-Claw, a "Chat Coding" AI agent framework for IoT devices
-* [tuya/TuyaOpen](https://github.com/tuya/TuyaOpen) - Next-gen AI+IoT framework for T2/T3/T5AI/ESP32/and more – Fast IoT and AI Agent hardware integration
-* [pnoker/iot-dc3](https://github.com/pnoker/iot-dc3) - IoT DC3 is a multi-protocol, cloud-native, AI-powered, open-source industrial IoT platform evolving toward AI agents. A complete IoT system solution: device connectivity, data acquisition, edge-to-cloud delivery and intelligent operations.
 
 ## Business and Domain
 
@@ -1237,10 +1119,6 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 
 ## Science and Math
 
-### Mathematics
-
-* [lyang36/IMO25](https://github.com/lyang36/IMO25) - An AI agent system for solving International Mathematical Olympiad (IMO) problems using Google's Gemini, OpenAI, and XAI APIs.
-
 ### Scientific Computing
 
 * [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) - Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
@@ -1253,8 +1131,8 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 * [matlab/matlab-agentic-toolkit](https://github.com/matlab/matlab-agentic-toolkit) - The MATLAB Agentic Toolkit brings trusted MATLAB capabilities to AI agents, making engineering and scientific workflows agent-ready.
 * [LeonChaoX/qinyan-academic-skills](https://github.com/LeonChaoX/qinyan-academic-skills) - A curated, multilingual library of 182 installable AI agent skills for end-to-end academic research—spanning literature discovery, scientific writing, grant development, bioinformatics, drug discovery, clinical research, machine learning, and data analysis.
 * [DeepXiv/deepxiv_sdk](https://github.com/DeepXiv/deepxiv_sdk) - Talk to research papers like talking to authors - Python package with AI agent for arXiv papers
-* [mims-harvard/TxAgent](https://github.com/mims-harvard/TxAgent) - TxAgent: An AI Agent for Therapeutic Reasoning Across a Universe of Tools
 * [brayonpi/hexstellar](https://github.com/brayonpi/hexstellar) - Turn any AI agent into a computational researcher. HexStellar Cortex delivers software-accelerated optimization, quantum computing, scientific computing, decision intelligence, and verifiable execution through a Python CLI and API—with certainty labels, verification receipts, examples, and a free sandbox. Start instantly: pip install hexstellar
+* [mims-harvard/TxAgent](https://github.com/mims-harvard/TxAgent) - TxAgent: An AI Agent for Therapeutic Reasoning Across a Universe of Tools
 * [ZimoLiao/scholaraio](https://github.com/ZimoLiao/scholaraio) - Scholar All-In-One: A research infrastructure for AI agents
 * [Forsy-AI/biosecurity-agent](https://github.com/Forsy-AI/biosecurity-agent) - AI agent that builds a live biosecurity world around any target.
 * [expectedparrot/edsl](https://github.com/expectedparrot/edsl) - Design, conduct and analyze results of AI-powered surveys and experiments. Simulate social science and market research with large numbers of AI agents and LLMs.
@@ -1264,5 +1142,46 @@ A curated list of awesome AI Agent frameworks, libraries and software.
 
 ## Other
 
+* [nrwl/nx](https://github.com/nrwl/nx) - The Monorepo Platform that amplifies both developers and AI agents. Nx optimizes your builds, scales your CI, and fixes failed PRs automatically. Ship in half the time.
+* [pestphp/pest](https://github.com/pestphp/pest) - The elegant testing framework for PHP developers and AI agents.
+* [hatchet-dev/hatchet](https://github.com/hatchet-dev/hatchet) - 🪓 An orchestration engine for background tasks, AI agents, and durable workflows
+* [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) - Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows
+* [rivet-dev/actors](https://github.com/rivet-dev/actors) - Rivet Actors are the primitive for stateful workloads. Built for AI agents, collaborative apps, and durable execution.
+* [entireio/cli](https://github.com/entireio/cli) - 📜 Entire CLI hooks into your Git workflow to capture AI agent sessions as you work. Sessions are indexed alongside commits, creating a searchable record of how code was written in your repo.
+* [PennyroyalTea/gibberlink](https://github.com/PennyroyalTea/gibberlink) - Two conversational AI agents switching from English to sound-level protocol after confirming they are both AI agents
+* [isjiamu/gzh-design-skill](https://github.com/isjiamu/gzh-design-skill) - 把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste-ready WeChat article HTML.
+* [qawolf/cli](https://github.com/qawolf/cli) - QA Wolf from anywhere — your terminal, your CI, your AI agent.
+* [crystaldba/postgres-mcp](https://github.com/crystaldba/postgres-mcp) - Postgres MCP Pro provides configurable read/write access and performance analysis for you and your AI agents.
+* [Vexa-ai/vexa](https://github.com/Vexa-ai/vexa) - Open-source meeting transcription API for Google Meet, Microsoft Teams & Zoom. Auto-join bots, real-time WebSocket transcripts, MCP server for AI agents. Self-host or use hosted SaaS.
+* [MetapriseAI/OrgKernel](https://github.com/MetapriseAI/OrgKernel) - Open-source trust layer for AI agents — cryptographic agent identity (Ed25519), instance-scoped execution tokens, SHA-256 hash-chained audit logging, and enterprise SSO/SCIM federation. The security foundation powering every agent in the Metaprise AURA platform.
+* [Infisical/agent-vault](https://github.com/Infisical/agent-vault) - A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more.
+* [espressif/esp-claw](https://github.com/espressif/esp-claw) - ESP-Claw, a "Chat Coding" AI agent framework for IoT devices
+* [tuya/TuyaOpen](https://github.com/tuya/TuyaOpen) - Next-gen AI+IoT framework for T2/T3/T5AI/ESP32/and more – Fast IoT and AI Agent hardware integration
+* [aklivity/zilla](https://github.com/aklivity/zilla) - 🦎 A lightweight, multi-protocol gateway for event-driven applications and AI agents. Expose and govern Kafka, MQTT, APIs, and MCP through one high-performance engine with shared routing, security, schema, and observability.
+* [cv-cat/XianYuApis](https://github.com/cv-cat/XianYuApis) - 闲鱼算法逆向，闲鱼api，websockets自动运营，咸鱼AI Agent基座
+* [pnoker/iot-dc3](https://github.com/pnoker/iot-dc3) - IoT DC3 is a multi-protocol, cloud-native, AI-powered, open-source industrial IoT platform evolving toward AI agents. A complete IoT system solution: device connectivity, data acquisition, edge-to-cloud delivery and intelligent operations.
+* [polterguy/magic](https://github.com/polterguy/magic) - Instant SECURE Full Stack Apps and AI Agents
 * [mind-protocol/terminal-velocity](https://github.com/mind-protocol/terminal-velocity) - A novel created autonomously by a team of 10 AI agents
+* [uber-archive/plato-research-dialogue-system](https://github.com/uber-archive/plato-research-dialogue-system) - This is the Plato Research Dialogue System, a flexible platform for developing conversational AI agents. *(archived)*
+* [lyang36/IMO25](https://github.com/lyang36/IMO25) - An AI agent system for solving International Mathematical Olympiad (IMO) problems using Google's Gemini, OpenAI, and XAI APIs.
+* [phasehq/console](https://github.com/phasehq/console) - Secrets management for teams and AI agents.
+* [SylphxAI/pdf-reader-mcp](https://github.com/SylphxAI/pdf-reader-mcp) - Give your AI agent eyes for PDFs — structured text, tables, OCR, visual evidence, and page-level citations via MCP. Native Rust, local-first.
+* [pgrundev/pgbot](https://github.com/pgrundev/pgbot) - Postgres intelligence for ai agents & apps
+* [ThibautBaissac/rails_ai_agents](https://github.com/ThibautBaissac/rails_ai_agents) - Specialized AI skills, agents, rules and hooks for modern Rails AI driven-development + Spec-Driven-Development kit + MCP
+* [joaoh82/rustunnel](https://github.com/joaoh82/rustunnel) - Self-hosted, secure tunnel server in Rust. Expose local HTTP/HTTPS/TCP/UDP services to the public internet via TLS-encrypted WebSocket. Open-source, pay-as-you-go managed option, MCP server for AI agents.
+* [automateyournetwork/netclaw](https://github.com/automateyournetwork/netclaw) - An AI agent that claws through your network
+* [use-novamira/novamira](https://github.com/use-novamira/novamira) - MCP server that gives AI agents full access to WordPress through PHP execution and filesystem operations
+* [takahirom/arbigent](https://github.com/takahirom/arbigent) - AI Agent for testing Android, iOS, and Web apps. Get Started in 5 Minutes. Arbigent's intuitive UI and powerful code interface make it accessible to everyone, while its scenario breakdown feature ensures scalability for even the most complex tasks.
+* [waynesutton/markdown-site](https://github.com/waynesutton/markdown-site) - An open-source publishing framework built for AI agents and developers to ship websites, docs, or blogs. Write markdown, sync from the terminal. Your content is instantly available to browsers, LLMs, and AI agents. Built on Convex and Netlify.
+* [thunder-id/thunderid](https://github.com/thunder-id/thunderid) - ThunderID is a high-performance, open-source identity stack designed for developers to secure and manage access for humans, AI agents, and machines through fully composable identity flows.
+* [sv-number/mcp-server](https://github.com/sv-number/mcp-server) - MCP server for AI agents that need a phone number: order a private number in 200+ countries, read the SMS verification code, hand it back. The widest country coverage in the category, and you can check it with one API call.
+* [centralmind/gateway](https://github.com/centralmind/gateway) - Universal MCP-Server for your Databases optimized for LLMs and AI-Agents.
+* [decionis/agent-safe-pipeline](https://github.com/decionis/agent-safe-pipeline) - Reference architecture for AI agents that propose actions but cannot authorize them — immutable intent capture, an independent Decionis policy verdict (ALLOW/ESCALATE/BLOCK), verified human approval, and a SafeExecutor that consumes a single-use intent-bound grant.
 * [arlanrakh/talk-to-girlfriend-ai](https://github.com/arlanrakh/talk-to-girlfriend-ai) - im busy building ai agents so why not let an ai talk to my girlfriend? (i am single)
+* [koloai/kolo](https://github.com/koloai/kolo) - Kolo is a text-based Python debugger for AI agents. Capture every executed function call, return value, local variable, HTTP request, and more in greppable trace files.
+* [JinhuaLiang/WavCraft](https://github.com/JinhuaLiang/WavCraft) - Official repo for WavCraft, an AI agent for audio creation and editing
+* [gitmono-dev/mega](https://github.com/gitmono-dev/mega) - Mega is an open-source implementation of Google Piper — a Git-compatible monorepo engine built for the AI Agent era.
+* [baryhuang/mcp-remote-macos-use](https://github.com/baryhuang/mcp-remote-macos-use) - The only general AI agent that does NOT requires extra API key, giving you full control on your local and remote MacOs from Claude Desktop App
+* [AeternaLabsHQ/pullmd](https://github.com/AeternaLabsHQ/pullmd) - Self-hosted URL- and file-to-Markdown service for humans and AI agents - web pages, documents, images, audio, YouTube. PWA + REST + MCP + Claude Code skill, Reddit-aware, refreshable share links.
+* [morapelker/hive](https://github.com/morapelker/hive) - Project/Worktree manager, deeply integrated with AI agents to increase productivity and multitask efficiently
+* [cporter202/agentic-ai-apis](https://github.com/cporter202/agentic-ai-apis) - The ultimate collection of APIs for building autonomous AI agents — 2,036 production-ready APIs across Agents, AI Models, and MCP Servers. Stop wasting weeks building infrastructure. Plug these in and ship your agent today.
